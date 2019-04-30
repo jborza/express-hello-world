@@ -1,5 +1,5 @@
 variables:
-  dockerId: my-docker-id  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
+  dockerId: $(dockerRepo)  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
   imageName: express-hello-world  # Replace with the name of the image you want to publish
 
 
